@@ -1,0 +1,40 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 230px;
+  height: 108vh;
+  color: white;
+  background-color: #040404;
+  overflow-y: overlay;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar__title {
+  margin-left: 30px;
+  border-bottom: 2px solid #747474;
+}
+
+.sidebar__title > p {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.sidebar__logo {
+  margin-right: auto;
+  object-fit: contain;
+  height: 70px;
+  padding: 10px;
+  padding: 0 2rem;
+}
+
+.sidebar__playlists {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

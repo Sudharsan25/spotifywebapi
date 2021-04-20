@@ -1,0 +1,38 @@
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+.body__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  border-bottom: 2px solid #747474;
+}
+
+.body__songs {
+  z-index: 1;
+  margin: 20px -30px;
+}
+
+.body__info {
+  flex: 1;
+}
+
+.body__info > h2 {
+  font-size: 25px;
+}
+
+.body__userInfo {
+  display: flex;
+  align-items: center;
+  background-color: #5097a3;
+  border: 1px solid #5097a3;
+  border-radius: 30px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.body__userInfo > h4 {
+  margin-left: 10px;
+}
