@@ -17,6 +17,12 @@ function Player({ spotify, ...props }) {
   const [uris, setUris] = useState([]);
 
   useEffect(() => {
+    alert(
+      "Drag playlists from Featured Playlists and drop them in user Playlists to Add them to your local Spotify playlists"
+    );
+  }, []);
+
+  useEffect(() => {
     setitems(playlists.items);
     setitems2(userPlaylists.items);
   }, [playlists, userPlaylists]);
